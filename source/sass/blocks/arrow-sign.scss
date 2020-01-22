@@ -1,0 +1,16 @@
+.arrow-sign {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  box-sizing: border-box;
+  border-bottom-color: #ffffff;
+  border-right-color: #ffffff;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-width: 1px;
+  border-style: solid;
+  transform: rotate(45deg);
+  opacity: 0.8;
+
+  @include hover-active;
+}

@@ -1,0 +1,22 @@
+.site-list {
+  @include list-clear;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+  margin-left: 32px;
+  margin-right: 110px;
+
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.site-list__item {
+  margin-left: 38px;
+}
+
+.site-list__link {
+  opacity: 0.8;
+  color: #ffffff;
+}
