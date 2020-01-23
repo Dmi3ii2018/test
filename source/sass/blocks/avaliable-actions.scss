@@ -34,16 +34,16 @@
   display: flex;
   align-items: center;
 
+  & svg {
+    margin-right: 10px;
+    fill: #2B2B2B;
+  }
+
   &:hover {
     @include hover-active;
 
     & svg {
       fill: #15f315;
     }
-  }
-
-  & svg {
-    margin-right: 10px;
-    fill: #2B2B2B;
   }
 }
