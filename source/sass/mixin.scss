@@ -24,3 +24,14 @@
     opacity: 0.3;
   }
 }
+
+@mixin opacity-hover {
+  &:hover,
+  &:focus {
+    opacity: 1;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+}

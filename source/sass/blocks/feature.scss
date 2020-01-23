@@ -1,0 +1,22 @@
+.feature {
+  @include list-clear;
+
+  flex-basis: 95px;
+}
+
+.feature__item {
+  text-align: center;
+  line-height: 14px;
+
+  margin-bottom: 23px;
+
+  & a {
+    font-size: 8px;
+    color: #0000ff;
+    border-bottom: 1px dashed #0000ff;
+
+    &:hover {
+      border-bottom-color: transparent;
+    }
+  }
+}

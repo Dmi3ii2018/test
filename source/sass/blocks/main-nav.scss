@@ -20,6 +20,11 @@
 }
 
 .main-nav__user-name {
+  @include hover-active;
+
+  font-size: 14px;
+  text-transform: uppercase;
+
   &::before {
     content: "";
     display: inline-block;
@@ -31,4 +36,8 @@
 
     background-image: url("../../images/svg/Shape\ \(3\).svg");
   }
+}
+
+.main-nav__add-sign {
+  @include hover-active;
 }

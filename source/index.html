@@ -31,7 +31,7 @@
         <input class="search__input" type="text" id="search-field" placeholder="поиск">
       </div>
       <ul class="site-list">
-        <li class="site-list__item">
+        <li class="site-list__item site-list__item--active">
           <a class="site-list__link" href="#">Деньги</a>
         </li>
         <li class="site-list__item">
@@ -42,7 +42,7 @@
           <span class="arrow-sign main-nav__arrow-sign"></span>
         </li>
       </ul>
-      <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <svg class="main-nav__add-sign" width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path fill-rule="evenodd" clip-rule="evenodd" d="M21 42C32.598 42 42 32.598 42 21C42 9.40202 32.598 0 21 0C9.40202 0 0 9.40202 0 21C0 32.598 9.40202 42 21 42ZM20 12C20 11.4477 20.4477 11 21 11C21.5523 11 22 11.4477 22 12V20H30C30.5523 20 31 20.4477 31 21C31 21.5523 30.5523 22 30 22H22V30C22 30.5523 21.5523 31 21 31C20.4477 31 20 30.5523 20 30V22H12C11.4477 22 11 21.5523 11 21C11 20.4477 11.4477 20 12 20H20V12Z" fill="white"/>
       </svg>
       <a href="#" class="notification-sign">
@@ -57,5 +57,99 @@
       </div>
     </nav>
   </header>
+  <main>
+    <section class="payment">
+      <div class="payment__order">
+        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M22.071 7.92891C21.6805 7.53839 21.0474 7.53839 20.6569 7.92891L15 13.5858L9.34314 7.92891C8.95264 7.53839 8.31946 7.53839 7.92896 7.92891C7.53842 8.31943 7.53842 8.95259 7.92896 9.34312L13.5858 15L7.92892 20.6568C7.53839 21.0473 7.53839 21.6805 7.92892 22.071C8.31946 22.4616 8.95261 22.4616 9.34314 22.071L15 16.4142L20.6569 22.071C21.0474 22.4616 21.6805 22.4616 22.0711 22.071C22.4616 21.6805 22.4616 21.0473 22.0711 20.6568L16.4142 15L22.071 9.34312C22.4616 8.95259 22.4616 8.31943 22.071 7.92891Z" fill="#2B2B2B"/>
+        </svg>
+        Платежное поручение № 5241234 от <time datetime="2015-09-23">23.09.2015</time>
+      </div>
+      <div class="payment__amount">
+        <span class="payment__sum">– 23 500.00  ₽</span>
+        <p class="payment__accaunt">
+          <span>со счета:</span> Расчетный счет (***12345)
+        </p>
+        <span class="payment__data">Исполнен, <time datetime="2019-06-21 15:33">21 июня 15:33</time></span>
+      </div>
+      <div class="accaunt">
+        <table class="accaunt__details">
+          <thead>
+              <tr>
+                  <th class="accaunt__name" colspan="2">ООО "Родные просторы"</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr class="accaunt__info">
+                  <td>ИНН:</td>
+                  <td>22341497819132</td>
+              </tr>
+              <tr class="accaunt__info">
+                <td>Банк:</td>
+                <td>ОАО "Сбербанк"</td>
+            </tr class="accaunt__info">
+            <tr class="accaunt__info">
+              <td>БИК:</td>
+              <td>2352362365</td>
+          </tr>
+          <tr class="accaunt__info">
+            <td>Счет:</td>
+            <td>157985321459855663321</td>
+        </tr>
+          </tbody>
+      </table>
+      <ul class="feature">
+        <li class="feature__item">
+          <a href="#">Высокая финансовая устойчивость</a>
+        </li>
+        <li class="feature__item">
+          <a href="#">Высокая благонадежность</a>
+        </li>
+        <li class="feature__item">
+          <a href="#">Кредитоспособность 44.5 млрд Р</a>
+        </li>
+      </ul>
+      <ul class="user-rating">
+        <li class="user-rating__item">88</li>
+        <li class="user-rating__item">100</li>
+        <li class="user-rating__item">1 класс</li>
+      </ul>
+      </div>
+      <p class="payment-extra-information">
+        Оплата за партию ромашек и одуванчиков по договору 14023-023 от 14.05.2015г. Сумма 11430-00.
+        В том числе НДС 18% -1450.00р.
+      </p>
+      <div class="commision-information">
+        <p>Комиссия банка: <span>77 p.</span></p>
+        <p>Размер комиссии расчитан автоматически согласно тарифу вашей компании и
+          является ознакомительным. Точный размер комиссии определяется после передачи
+          платежного документа на обработку в банк.
+        </p>
+      </div>
+    </section>
+    <ul class="avaliable-actions">
+      <li>
+        <a href="#">
+          Повторить
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          В избранное
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          Спросить
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          Действия
+        </a>
+      </li>
+    </ul>
+  </main>
+  <script src="js/main.js"></script>
 </body>
 </html>

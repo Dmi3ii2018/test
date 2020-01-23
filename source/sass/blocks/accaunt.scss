@@ -1,0 +1,27 @@
+.accaunt {
+  display: flex;
+  justify-content: space-between;
+
+  width: 545px;
+
+  box-sizing: border-box;
+
+  margin-top: 17px;
+  padding-right: 44px;
+  padding-left: 34px;
+  padding-top: 23px;
+
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.390682), 0px 3px 10px rgba(0, 0, 0, 0.0869282);
+}
+
+.accaunt__details {
+  border-spacing: 5px 5px;
+}
+
+.accaunt__name {
+  text-align: left;
+  font-size: 20px;
+
+  padding-bottom: 12px;
+}
+
