@@ -2,13 +2,17 @@
   @include list-clear;
 
   flex-basis: 95px;
+
+  padding-top: 4px;
+  margin-left: auto;
+  margin-right: 5px;
 }
 
 .feature__item {
   text-align: center;
   line-height: 14px;
 
-  margin-bottom: 23px;
+  margin-bottom: 19px;
 
   & a {
     font-size: 8px;

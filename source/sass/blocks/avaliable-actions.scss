@@ -1,0 +1,49 @@
+.avaliable-actions {
+  align-self: stretch;
+
+  position: fixed;
+  bottom: 0;
+  width: inherit;
+
+  background-color: #ffffff;
+
+  min-height: 60px;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.239102), 0px 0px 15px rgba(0, 0, 0, 0.0869282);
+}
+
+.avaliable-actions__list {
+  @include list-clear;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 545px;
+
+  font-size: 14px;
+
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-left: 6px;
+
+  box-sizing: border-box;
+}
+
+.avaliable-actions__link {
+  display: flex;
+  align-items: center;
+
+  &:hover {
+    @include hover-active;
+
+    & svg {
+      fill: #15f315;
+    }
+  }
+
+  & svg {
+    margin-right: 10px;
+    fill: #2B2B2B;
+  }
+}

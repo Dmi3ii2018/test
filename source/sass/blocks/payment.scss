@@ -1,10 +1,12 @@
 .payment {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
 
   width: 900px;
   margin-left: 380px;
+  padding-bottom: 55px;
 
   background: #FFFFFF;
   box-shadow: -8px 9px 25px rgba(49, 68, 93, 0.23112);
@@ -14,12 +16,26 @@
   @include font-thin;
   align-self: stretch;
 
+  display: flex;
+  align-items: center;
+  padding-left: 25px;
+
   height: 60px;
 
   font-size: 24px;
   line-height: 28px;
 
   background: rgba(0, 0, 0, 0.0289572);
+
+  & p {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 21px;
+  }
+
+  & svg {
+    @include hover-active;
+  }
 }
 
 .payment__amount {
